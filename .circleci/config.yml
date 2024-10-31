@@ -13,9 +13,3 @@ workflows:
   hello-world:
     jobs:
       - grettings
-      - run:
-          name: Run tests
-          command: pytest
-      - run:
-          name: Deploy
-          command: bash deploy.sh
