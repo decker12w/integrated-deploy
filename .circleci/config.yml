@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   grettings:
     docker:
-      - image: circleci/base:stable
+      - image: cimg/base:stable
     steps:
       - checkout
       - run:
