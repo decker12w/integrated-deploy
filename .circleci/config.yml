@@ -12,7 +12,8 @@ jobs:
 workflows:
   hello-world:
     jobs:
-      - grettings - run:
+      - grettings
+      - run:
           name: Run tests
           command: pytest
       - run:
